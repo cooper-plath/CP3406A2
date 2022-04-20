@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="84dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/title_banner"
+        tools:ignore="ContentDescription" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Choose a Category"
+        android:textAlignment="center"
+        android:textSize="35sp" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:id="@+id/categoryGroup"
+        >
+
+        <RadioButton
+            android:id="@+id/movieTvCat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="checkButton"
+            android:textSize="20sp"
+            android:text="Movie and Tv Series" />
+
+        <RadioButton
+            android:id="@+id/mathCat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="checkButton"
+            android:textSize="20sp"
+            android:text="Math" />
+
+        <RadioButton
+            android:id="@+id/sportsCat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="checkButton"
+            android:text="Sports"
+            android:textSize="20sp" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/beginBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:onClick="beginPressed"
+        android:text="Begin"
+        android:textSize="40sp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:onClick="settingsPressed"
+        android:text="Settings"
+        android:textSize="40sp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:onClick="leaderboardsPressed"
+        android:text="Leaderboards"
+        android:textSize="30sp" />
+
+
+    <!--    <TextView-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="Leaderboard"-->
+    <!--        android:textStyle="italic"-->
+    <!--        android:textAlignment="center"-->
+    <!--        android:textSize="40sp"/>-->
+    <!--    <TextView-->
+    <!--        android:id="@+id/firstPlace"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="Person1"-->
+    <!--        android:textAlignment="center"-->
+    <!--        android:textSize="35sp"/>-->
+    <!--    <TextView-->
+    <!--        android:id="@+id/secondPlace"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="Person2"-->
+    <!--        android:textAlignment="center"-->
+    <!--        android:textSize="30sp"/>-->
+    <!--    <TextView-->
+    <!--        android:id="@+id/thirdPlace"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="Person3"-->
+    <!--        android:textAlignment="center"-->
+    <!--        android:textSize="25sp"/>-->
+
+</LinearLayout>
