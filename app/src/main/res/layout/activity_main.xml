@@ -87,33 +87,6 @@
         android:textSize="30sp" />
 
 
-    <!--    <TextView-->
-    <!--        android:layout_width="match_parent"-->
-    <!--        android:layout_height="wrap_content"-->
-    <!--        android:text="Leaderboard"-->
-    <!--        android:textStyle="italic"-->
-    <!--        android:textAlignment="center"-->
-    <!--        android:textSize="40sp"/>-->
-    <!--    <TextView-->
-    <!--        android:id="@+id/firstPlace"-->
-    <!--        android:layout_width="match_parent"-->
-    <!--        android:layout_height="wrap_content"-->
-    <!--        android:text="Person1"-->
-    <!--        android:textAlignment="center"-->
-    <!--        android:textSize="35sp"/>-->
-    <!--    <TextView-->
-    <!--        android:id="@+id/secondPlace"-->
-    <!--        android:layout_width="match_parent"-->
-    <!--        android:layout_height="wrap_content"-->
-    <!--        android:text="Person2"-->
-    <!--        android:textAlignment="center"-->
-    <!--        android:textSize="30sp"/>-->
-    <!--    <TextView-->
-    <!--        android:id="@+id/thirdPlace"-->
-    <!--        android:layout_width="match_parent"-->
-    <!--        android:layout_height="wrap_content"-->
-    <!--        android:text="Person3"-->
-    <!--        android:textAlignment="center"-->
-    <!--        android:textSize="25sp"/>-->
+
 
 </LinearLayout>

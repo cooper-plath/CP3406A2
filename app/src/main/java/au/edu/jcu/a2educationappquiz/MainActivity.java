@@ -28,14 +28,6 @@ public class MainActivity extends AppCompatActivity {
 
         categoryGroup = findViewById(R.id.categoryGroup);
 
-        Button beginBtn = findViewById(R.id.beginBtn);
-//        beginBtn.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                int radioId = categoryGroup.getCheckedRadioButtonId();
-//                radioButton = findViewById(radioId);
-//            }
-//        });
 
     }
 
