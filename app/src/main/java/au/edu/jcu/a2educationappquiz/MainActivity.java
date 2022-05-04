@@ -15,7 +15,7 @@ import java.util.Objects;
 
 public class MainActivity extends AppCompatActivity {
 
-    RadioGroup categoryGroup;
+    RadioGroup subjectGroup;
     RadioButton radioButton;
 
 
@@ -24,18 +24,18 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        getSupportActionBar().setTitle("Quiz Me Mobile App");
+        getSupportActionBar().setTitle("Test your Knowledge Mobile App");
 
-        categoryGroup = findViewById(R.id.categoryGroup);
+        subjectGroup = findViewById(R.id.subjectGroup);
 
 
     }
 
     public void beginPressed(View view) {
-        int radioId = categoryGroup.getCheckedRadioButtonId();
+        int radioId = subjectGroup.getCheckedRadioButtonId();
         radioButton = findViewById(radioId);
         Intent intent = new Intent(this, GameActivity.class);
-        intent.putExtra("category", radioButton.getText().toString());
+//        intent.putExtra("subject", radioButton.getText().toString());
         startActivity(intent);
     }
 
@@ -50,10 +50,10 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void checkButton(View view) {
-        int radioId = categoryGroup.getCheckedRadioButtonId();
+        int radioId = subjectGroup.getCheckedRadioButtonId();
         radioButton = findViewById(radioId);
 
-        Toast.makeText(this, "Category Selected: " + radioButton.getText(), Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "Subject Selected: " + radioButton.getText(), Toast.LENGTH_SHORT).show();
     }
 
 }

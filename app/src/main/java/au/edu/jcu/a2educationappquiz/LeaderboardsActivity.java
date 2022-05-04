@@ -10,6 +10,6 @@ public class LeaderboardsActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_leaderboards);
-        getSupportActionBar().setTitle("Quiz Me Mobile App");
+        getSupportActionBar().setTitle("Test your Knowledge Mobile App");
     }
 }
